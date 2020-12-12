@@ -8,11 +8,23 @@
 
 # print("your full name is ",firstname,lastname)
 
-num1 = input("first number :")
-num2 = input("second number :")
+# ----------math operations-----------
 
-n1 = int(num1)
-n2 = int(num2)
+# num1 = input("first number :")
+# num2 = input("second number :")
 
-print(n1*n2)
+# n1 = int(num1)
+# n2 = int(num2)
 
+# print(n1*n2)
+
+# --------------conditional operations---------------
+
+budget = input("Provide your budget : ")
+
+price = float(budget)
+
+if price > 500:
+    print("You can buy the product")
+else:
+    print("Sorry..! You can't buy it")
