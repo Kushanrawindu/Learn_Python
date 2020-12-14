@@ -68,6 +68,13 @@ ages = [13, 17, 15, 12, 20]
 #     return num * 2
 # brushTeeth(num)
 
-import random
-num = random.randint(0,10)
-print(num)
+# import random
+# num = random.randint(0,10)
+# print(num)
+
+
+hello = 'HeLlo WorLd'
+print(hello.upper())
+print(hello.lower())
+print(hello.capitalize())
+print(hello.lower().count('l'))
