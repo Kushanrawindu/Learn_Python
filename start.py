@@ -73,8 +73,21 @@ ages = [13, 17, 15, 12, 20]
 # print(num)
 
 
-hello = 'HeLlo WorLd'
-print(hello.upper())
-print(hello.lower())
-print(hello.capitalize())
-print(hello.lower().count('l'))
+# hello = 'HeLlo WorLd'
+# print(hello.upper())
+# print(hello.lower())
+# print(hello.capitalize())
+# print(hello.lower().count('l'))
+
+# x = [4, True, 'hi']
+# y = x
+# # print(x.pop(1))
+# x[0] = 'hello'
+
+# print(x,y)
+
+x = [0,1,2,3,4,5,6,7,8,9]
+y = ['hi', 'hello', 'cya', 'sure']
+s = 'hello'
+sliced = x[8:5:-1]
+print(sliced)
