@@ -171,10 +171,13 @@ x = [1,2,3,4,5,6,7,8,9]
 mp = filter(lambda i: i % 2 == 0, x)
 print(list(mp))
 
+#another way with using a function
 
+def func(i):
+    i = i + 3
+    return i % 2 == 0
 
-
-
-
+mp = filter(func, x)
+print(list(mp))
 
 
