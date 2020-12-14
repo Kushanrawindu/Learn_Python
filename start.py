@@ -16,7 +16,7 @@
 # n1 = int(num1)
 # n2 = int(num2)
 
-# print(n1*n2)
+# print("Sum is : " , n1+n2)
 
 # --------------conditional operations---------------
 
@@ -29,19 +29,36 @@
 # else:
 #     print("Sorry..! You can't buy it")
 
-budget = input("Provide your budget : ")
+# budget = input("Provide your budget : ")
 
-price = float(budget)
+# price = float(budget)
 
-if price > 1000:
-    print("You can buy iphone 12")
-elif 1000 >= price > 900:
-    print("You can buy iphone 11")
-elif 900 >= price > 800:
-    print("You can buy iphone 10")
-elif 800 >= price > 700:
-    print("You can buy iphone SE")
-elif 700 >= price > 600:
-    print("You can buy iphone 8")
-else:
-    print("You can buy iphone 7")
+# if price > 1000:
+#     print("You can buy iphone 12")
+# elif 1000 >= price > 900:
+#     print("You can buy iphone 11")
+# elif 900 >= price > 800:
+#     print("You can buy iphone 10")
+# elif 800 >= price > 700:
+#     print("You can buy iphone SE")
+# elif 700 >= price > 600:
+#     print("You can buy iphone 8")
+# else:
+#     print("You can buy iphone 7")
+
+
+# ......................loop........................
+
+ages = [13, 17, 15, 12, 20]
+
+# for age in ages:
+#     print("this friend age", age)
+
+# for num in range(0,10):
+#     print(num)
+
+num = 0
+while num < 10:
+    print(num)
+    num = num +1
+
