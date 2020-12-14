@@ -92,9 +92,15 @@ ages = [13, 17, 15, 12, 20]
 # sliced = x[8:5:-1]
 # print(sliced)
 
-try:
-    x = 7/0
-except Exception as e:
-    print(e)
-finally:
-    print("finally")
+# try:
+#     x = 7/0
+# except Exception as e:
+#     print(e)
+# finally:
+#     print("finally")
+
+x = lambda x: x + 5
+print(x(2))
+
+a = lambda a, b: a + b
+print(a(2, 32))
