@@ -63,14 +63,34 @@ ages = [13, 17, 15, 12, 20]
 #     num = num +1
 # num = 10
 
+
+
+
+
+
+
+
+
 # def brushTeeth(num):
 #     print("Brushing")
 #     return num * 2
 # brushTeeth(num)
 
+
+
+
+
+
+
 # import random
 # num = random.randint(0,10)
 # print(num)
+
+
+
+
+
+
 
 
 # hello = 'HeLlo WorLd'
@@ -79,6 +99,11 @@ ages = [13, 17, 15, 12, 20]
 # print(hello.capitalize())
 # print(hello.lower().count('l'))
 
+
+
+
+
+
 # x = [4, True, 'hi']
 # y = x
 # # print(x.pop(1))
@@ -86,11 +111,23 @@ ages = [13, 17, 15, 12, 20]
 
 # print(x,y)
 
+
+
+
+# --------------sliced---------------
+
 # x = [0,1,2,3,4,5,6,7,8,9]
 # y = ['hi', 'hello', 'cya', 'sure']
 # s = 'hello'
 # sliced = x[8:5:-1]
 # print(sliced)
+
+
+
+
+
+
+# --------------exception handeling---------------
 
 # try:
 #     x = 7/0
@@ -99,8 +136,45 @@ ages = [13, 17, 15, 12, 20]
 # finally:
 #     print("finally")
 
-x = lambda x: x + 5
-print(x(2))
 
-a = lambda a, b: a + b
-print(a(2, 32))
+
+
+# --------------lambda---------------
+
+
+# x = lambda x: x + 5
+# print(x(2))
+
+# a = lambda a, b: a + b
+# print(a(2, 32))
+
+
+
+
+# --------------map function---------------
+
+# x = [1,2,3,4,5,6,7,8,9]
+
+# mp = map(lambda i: i + 2, x)
+# print(list(mp))
+
+
+
+
+
+
+
+# --------------filter---------------
+
+x = [1,2,3,4,5,6,7,8,9]
+
+mp = filter(lambda i: i % 2 == 0, x)
+print(list(mp))
+
+
+
+
+
+
+
+
