@@ -86,8 +86,15 @@ ages = [13, 17, 15, 12, 20]
 
 # print(x,y)
 
-x = [0,1,2,3,4,5,6,7,8,9]
-y = ['hi', 'hello', 'cya', 'sure']
-s = 'hello'
-sliced = x[8:5:-1]
-print(sliced)
+# x = [0,1,2,3,4,5,6,7,8,9]
+# y = ['hi', 'hello', 'cya', 'sure']
+# s = 'hello'
+# sliced = x[8:5:-1]
+# print(sliced)
+
+try:
+    x = 7/0
+except Exception as e:
+    print(e)
+finally:
+    print("finally")
