@@ -57,8 +57,13 @@ ages = [13, 17, 15, 12, 20]
 # for num in range(0,10):
 #     print(num)
 
-num = 0
-while num < 10:
-    print(num)
-    num = num +1
+# num = 0
+# while num < 10:
+#     print(num)
+#     num = num +1
+num = 10
 
+def brushTeeth(num):
+    print("Brushing")
+    return num * 2
+brushTeeth(num)
